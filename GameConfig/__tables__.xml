@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module name="">
+    <table name="TbItemConfig" value="ItemConfig" input="item.xlsx" index="Id" mode="map" group="c"/>
+    <table name="TbHeroConfig" value="HeroConfig" input="Hero.xlsx" index="Id" mode="map" group="c"/>
+    <table name="TbMonsterConfig" value="MonsterConfig" input="Monster.xlsx" index="Id" mode="map" group="c"/>
+    <table name="TbMonsterGroupConfig" value="MonsterGroupConfig" input="MonsterGroup.xlsx" index="Id" mode="map" group="c"/>
+    <table name="TbLevelConfig" value="LevelConfig" input="Level.xlsx" index="Id" mode="map" group="c"/>
+</module>

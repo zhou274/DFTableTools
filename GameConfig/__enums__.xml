@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module name="">
+    <enum name="ItemQuality">
+        <var name="COMMON" alias="普通"/>
+        <var name="UNCOMMON" alias="非凡"/>
+        <var name="RARE" alias="稀有"/>
+        <var name="EPIC" alias="史诗"/>
+        <var name="LEGENDARY" alias="传说"/>
+    </enum>
+    <enum name="ItemType">
+        <var name="WEAPON" alias="武器"/>
+        <var name="ARMOR" alias="防具"/>
+        <var name="CONSUMABLE" alias="消耗品"/>
+        <var name="MATERIAL" alias="材料"/>
+        <var name="QUEST" alias="任务"/>
+    </enum>
+    <enum name="MonsterType">
+        <var name="MElEE" alias="近战"/>
+        <var name="RANGED" alias="远程"/>
+    </enum>
+    <enum name="WaveType">
+        <var name="NORMAL" alias="普通波次"/>
+        <var name="HARD" alias="一大波怪物"/>
+        <var name="BOSS" alias="Boss波数"/>
+    </enum>
+</module>

@@ -1,0 +1,57 @@
+{
+  "Groups": [
+    {
+      "Names": ["c"],
+      "Default": true
+    },
+    {
+      "Names": ["s"],
+      "Default": true
+    }
+  ],
+  "SchemaFiles": [
+    {
+      "FileName": "GameConfig/__enums__.xml",
+      "Type": ""
+    },
+    {
+      "FileName": "GameConfig/__beans__.xml",
+      "Type": ""
+    },
+    {
+      "FileName": "GameConfig/__tables__.xml",
+      "Type": ""
+    }
+  ],
+  "DataDir": "Datas",
+  "Targets": [
+    {
+      "Name": "code",
+      "Manager": "Tables",
+      "Groups": ["c", "s"],
+      "TopModule": "cfg"
+    },
+    {
+      "Name": "client",
+      "Manager": "Tables",
+      "Groups": ["c"],
+      "TopModule": "cfg"
+    },
+    {
+      "Name": "server",
+      "Manager": "Tables",
+      "Groups": ["s"],
+      "TopModule": "cfg"
+    }
+  ],
+  "Xargs": [
+    "cs-bin.outputCodeDir=../DimensionFirewall/Assets/GameMain/Scripts/Luban",
+    "cs-bin.cleanUpOutputDir=false",
+    "bin.outputDataDir=../DimensionFirewall/Assets/GameRes/Luban/Data/Bin",
+    "bin.cleanUpOutputDir=false",
+    "json.outputDataDir=../DimensionFirewall/Assets/GameRes/Luban/Data/Json",
+    "json.cleanUpOutputDir=false",
+    "xml.outputDataDir=../DimensionFirewall/Assets/GameRes/Luban/Data/Xml",
+    "lua.outputDataDir=../DimensionFirewall/Assets/GameRes/Luban/Data/Lua"
+  ]
+}

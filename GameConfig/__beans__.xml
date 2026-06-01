@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module name="">
+    <bean name="ItemConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Name" type="string"/>
+        <var name="Quality" type="ItemQuality"/>
+        <var name="Type" type="ItemType"/>
+        <var name="Icon" type="string"/>
+        <var name="Description" type="string"/>
+        <var name="MaxStack" type="int"/>
+        <var name="CanSell" type="bool"/>
+        <var name="SellPrice" type="int"/>
+    </bean>
+    <bean name="HeroConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Name" type="string"/>
+        <var name="Atk" type="int"/>
+        <var name="Def" type="int"/>
+        <var name="Hp" type="int"/>
+        <var name="SkillIds" type="list,int"/>
+    </bean>
+    <bean name="MonsterConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Name" type="string"/>
+        <var name="Hp" type="int"/>
+        <var name="Attack" type="int"/>
+        <var name="Def" type="int"/>
+        <var name="MoveSpeed" type="int"/>
+        <var name="Type" type="MonsterType"/>
+        <var name="DropIds" type="list,int"/>
+        <var name="SkillIds" type="list,int"/>
+    </bean>
+    <bean name="MonsterGroupConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Description" type="string"/>
+        <var name="MonsterIds" type="list,int"/>
+        <var name="HpRate" type="float"/>
+        <var name="AttackRate" type="float"/>
+        <var name="DefRate" type="float"/>
+        <var name="WaveType" type="WaveType"/>
+        <var name="Delay" type="float"/>
+        <var name="SpawnInterval" type="float"/>
+        <var name="LimitNum" type="int"/>
+    </bean>
+    <bean name="LevelConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Theme" type="int"/>
+        <var name="LevelId" type="int"/>
+        <var name="MonsterGroupID" type="list,int"/>
+    </bean>
+</module>
