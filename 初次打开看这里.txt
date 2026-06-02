@@ -1,0 +1,5 @@
+在此文件夹
+打开终端运行 恢复NuGet包 编译Luban   如果 dotnet build 报了 NETSDK1045（缺少 net8.0 运行时），那就先安装 .NET 8.0 SDK。
+cd luban\src
+dotnet restore Luban.sln
+dotnet build Luban.sln -c Release
