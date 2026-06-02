@@ -27,6 +27,7 @@
         <var name="Def" type="int"/>
         <var name="MoveSpeed" type="int"/>
         <var name="Type" type="MonsterType"/>
+        <var name="MoveType" type="MonsterMoveType"/>
         <var name="DropIds" type="list,int"/>
         <var name="SkillIds" type="list,int"/>
     </bean>

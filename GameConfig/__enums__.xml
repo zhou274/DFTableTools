@@ -18,6 +18,10 @@
         <var name="MElEE" alias="近战"/>
         <var name="RANGED" alias="远程"/>
     </enum>
+    <enum name="MonsterMoveType">
+        <var name="WALK" alias="行走"/>
+        <var name="FLY" alias="飞行"/>
+    </enum>
     <enum name="WaveType">
         <var name="NORMAL" alias="普通波次"/>
         <var name="HARD" alias="一大波怪物"/>
