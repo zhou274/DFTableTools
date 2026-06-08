@@ -31,6 +31,8 @@
         <var name="MoveType" type="MonsterMoveType"/>
         <var name="DropIds" type="list,int"/>
         <var name="SkillIds" type="list,int"/>
+        <var name="AttackRange" type="float"/>
+        <var name="AttackSpeed" type="float"/>
     </bean>
     <bean name="MonsterGroupConfig" valueType="true">
         <var name="Id" type="int"/>
