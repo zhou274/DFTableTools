@@ -27,4 +27,15 @@
         <var name="HARD" alias="一大波怪物"/>
         <var name="BOSS" alias="Boss波数"/>
     </enum>
+    <enum name="BulletType">
+        <var name="NORMAL" alias="普通子弹"/>
+        <var name="PIERCE" alias="穿透子弹"/>
+        <var name="EXPLODE" alias="爆炸子弹"/>
+        <var name="HOMING" alias="追踪子弹"/>
+    </enum>
+    <enum name="BulletOwner">
+        <var name="HERO" alias="英雄"/>
+        <var name="MONSTER" alias="怪物"/>
+    </enum>
+    
 </module>

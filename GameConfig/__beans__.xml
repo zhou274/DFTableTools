@@ -18,6 +18,8 @@
         <var name="Def" type="int"/>
         <var name="Hp" type="int"/>
         <var name="SkillIds" type="list,int"/>
+        <var name="BulletId" type="int"/>
+        <var name="AttackSpeed" type="float"/>
     </bean>
     <bean name="MonsterConfig" valueType="true">
         <var name="Id" type="int"/>
@@ -33,6 +35,19 @@
         <var name="SkillIds" type="list,int"/>
         <var name="AttackRange" type="float"/>
         <var name="AttackSpeed" type="float"/>
+        <var name="BulletId" type="int"/>
+    </bean>
+    <bean name="BulletConfig" valueType="true">
+        <var name="Id" type="int"/>
+        <var name="Name" type="string"/>
+        <var name="Speed" type="float"/>
+        <var name="MaxDistance" type="float"/>
+        <var name="AttackRate" type="float"/>
+        <var name="BulletType" type="BulletType"/>
+        <var name="PierceCount" type="int"/>
+        <var name="ExplodeRadius" type="float"/>
+        <var name="PrefabName" type="string"/>
+        <var name="BulletOwner" type="BulletOwner"/>
     </bean>
     <bean name="MonsterGroupConfig" valueType="true">
         <var name="Id" type="int"/>

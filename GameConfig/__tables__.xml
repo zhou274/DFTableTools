@@ -5,4 +5,5 @@
     <table name="TbMonsterConfig" value="MonsterConfig" input="Monster.xlsx" index="Id" mode="map" group="c"/>
     <table name="TbMonsterGroupConfig" value="MonsterGroupConfig" input="MonsterGroup.xlsx" index="Id" mode="map" group="c"/>
     <table name="TbLevelConfig" value="LevelConfig" input="Level.xlsx" index="Id" mode="map" group="c"/>
+    <table name="TbBulletConfig" value="BulletConfig" input="Bullet.xlsx" index="Id" mode="map" group="c"/>
 </module>
