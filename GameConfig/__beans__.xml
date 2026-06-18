@@ -20,6 +20,7 @@
         <var name="SkillIds" type="list,int"/>
         <var name="BulletId" type="int"/>
         <var name="AttackSpeed" type="float"/>
+        <var name="PrefabName" type="string"/>
     </bean>
     <bean name="MonsterConfig" valueType="true">
         <var name="Id" type="int"/>
